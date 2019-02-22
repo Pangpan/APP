@@ -1,0 +1,256 @@
+#header{
+    width: 100%;
+    height: 2.10rem;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, rgb(98,99,101),rgb(7,9,6));
+}
+#status{
+    width: 100%;
+    height: 0.4rem;
+}
+#status img{
+    width:100% ;
+    height: 0.4rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+/*status（状态栏）*/
+#header .back{
+    width: 6.82rem;
+    height: 0.28rem;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+    position: relative;
+}
+#header .back a i{
+    position: absolute;
+    top: 0;
+    font-size: 0.30rem;
+    color: rgba(255,255,255,0.9);
+}
+/*header（头部）*/
+
+#storeName{
+    width: 6.74rem;
+    height: 2.08rem;
+    margin-left: 0.24rem;
+    margin-top: -0.75rem;
+    padding-left: 0.24rem;
+}
+.storePic{
+    width: 1.50rem;
+    height: 1.50rem;
+    border-radius: 0.24rem;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+.storePic img{
+    width: 1.50rem;
+    height: 1.50rem;
+}
+.storeText{
+    float: right;
+    width: 4.78rem;
+    height: 1.50rem;
+    margin-bottom: 0.2rem;
+}
+.storeText .name{
+    font-size: 0.34rem;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 0.35rem;
+}
+.storeText .name i{
+    font-size: 0.34rem;
+    color: rgba(255,255,255,0.8);
+}
+.storeText .ping{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 0.13rem;
+}
+.storeText .cheap .shape{
+    width: 0.5rem;
+    height: 0.30rem;
+    background: rgba(255,42,0,0.8);
+    font-size: 0.2rem;
+    color: rgba(255,255,255,0.8);
+    display: inline;
+    margin-right: 0.19rem;
+}
+.storeText .cheap{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.8);
+}
+.storeText .cheap span{
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.2rem;
+}
+#storeName .bottom{
+    margin-left: 0.40rem;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.5);
+}
+/*storeName（店名）*/
+
+#option{
+    width: 5.53rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    margin-top: 0.24rem;
+    margin-bottom: 0.39rem;
+    display: flex;
+    justify-content: space-between;
+}
+.optionOrder{
+    width: 1.40rem;
+    height: 0.4rem;
+    background: rgba(255,42,0,0.7);
+    border-radius: 0.2rem;
+    font-size: 0.34rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: rgb(239,239,239);
+}
+.optionOrder:hover{
+    background: rgba(255,42,0,0.7);
+}
+.optionStore{
+    background: rgba(0,0,0,0.3);
+}
+/*option（选项）*/
+
+#content{
+    width: 6.98rem;
+    height: 7.21rem;
+    margin-left: 0.22rem;
+}
+.contentLeft{
+    width: 1.43rem;
+    height: 100%;
+    float: left;
+}
+.contentLeft a p:hover{
+    color: rgba(255,42,0,0.8);
+}
+.leftList{
+    width: 100%;
+    height: 0.41rem;
+    text-align: center;
+    margin-bottom: 0.44rem;
+}
+.leftLine{
+    width: 100%;
+    height: 0.06rem;
+    background: rgba(0,0,0,0.1);
+}
+.leftList p{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.8);
+}
+.contentRight{
+    width: 5.55rem;
+    height: 100%;
+    float: right;
+}
+.rightList{
+    width: 100%;
+    height: 1.40rem;
+    margin-bottom: 0.54rem;
+}
+.listPic{
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-left: 0.72rem;
+    border-radius: 0.2rem;
+    display: inline-block;
+}
+.listPic img{
+    width: 1.35rem;
+    height: 1.35rem;
+}
+.listText{
+    display: inline-block;
+    width: 3.22rem;
+    height: 100%;
+    float: right;
+}
+.listText .one{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.9);
+}
+.listText .two{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+}
+.listText .three{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+}
+.listText .four{
+    font-size: 0.28rem;
+    color: rgba(255,42,0,0.8);
+}
+.listText .four span{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+}
+.listText .four img{
+    width: 0.32rem;
+    height: 0.32rem;
+    float: right;
+}
+/*content（内容）*/
+
+#tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -0.02rem 0.16rem rgba(184,184,184,0.75);
+}
+.tabLeft{
+    width: 0.82rem;
+    height: 0.82rem;
+    background: rgb(207,207,207);
+    margin-left: 0.24rem;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.08rem;
+    position: relative;
+}
+.tabLeft i{
+    position: absolute;
+    top: 0.15rem;
+    left: 0.15rem;
+    font-size: 0.55rem;
+    color: rgba(0,0,0,0.7);
+}
+.tabMiddle{
+    float: left;
+    width: 4.44rem;
+    height: 100%;
+    padding-left: 0.25rem;
+}
+.tabMiddle .middleTop{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.tabMiddle .middleBottom{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+}
+.tabRight{
+    width: 1.53rem;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    float: right;
+    font-size: 0.3rem;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    line-height: 0.98rem;
+}
+/*tab栏*/

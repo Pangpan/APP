@@ -1,0 +1,189 @@
+#header{
+    width: 100%;
+    height: 6.50rem;
+    margin: 0 auto;
+    background-image:url(../images/heben.png);
+    background-size: 100% 6.50rem;
+}
+#status{
+    width: 100%;
+    height: 0.4rem;
+}
+#status img{
+    width:100% ;
+    height: 0.4rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+/*status（状态栏）*/
+#brief{
+    width: 3.22rem;
+    height: 3.99rem;
+    margin: 0 auto;
+    margin-top: -5.31rem;
+    text-align: center;
+}
+.briefPic{
+    width: 1.65rem;
+    height: 2.06rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.briefPic img{
+    width: 1.63rem;
+    height: 1.63rem;
+    margin-top: 0.17rem;
+}
+.briefOne{
+    font-size: 0.4rem;
+    color: rgba(255,255,255,0.8);
+}
+.briefTwo{
+    font-size: 0.24rem;
+    color: rgba(255,255,255,0.5);
+}
+.briefStar{
+    margin-top: -0.65rem;
+}
+.briefStar i{
+    font-size: 0.34rem;
+    color: #000;
+    margin-bottom: 0.2rem;
+}
+.briefInstall{
+    width: 2.21rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    margin-top: -0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.briefInstall i{
+    display: inline;
+    font-size: 0.4rem;
+    color: #c3c3c4;
+}
+/*brief（头像简介）*/
+
+#my{
+    width: 43.6%;
+    height: 1.10rem;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+    padding-top: 0.09rem;
+}
+.myLittle{
+    width: 2.99rem;
+    height: 0.98rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    box-shadow: 0 0 0.09rem rgb(192,192,192);
+    text-align: center;
+    font-size: 0.34rem;
+    color: rgba(0,0,0,0.8);
+}
+.myCircle{
+    width: 2.50rem;
+    height: 0.17rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    padding-top: 0.4rem;
+}
+.myCircle .left{
+    width: 0.17rem;
+    height: 0.17rem;
+    background: #525252;
+    border-radius: 50%;
+    border: 0.03rem solid #cccccc;
+}
+.myLittle p{
+    margin-top: -0.15rem;
+}
+.myLittle .pin{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.1);
+    margin-top: -0.4rem;
+}
+/*my*/
+
+#conList{
+    width: 93.6%;
+    height: 4.96rem;
+    margin: 0 auto;
+    margin-top: 0.29rem;
+}
+#conList .item{
+    width: 100%;
+    height: 1rem;
+    background: #ffffff;
+    box-shadow: 0 0.05rem 0.16rem rgba(191,191,191,0.75);
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.7);
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+.itemLeft{
+    display: inline-block;
+    width: 0.65rem;
+    height: 0.65rem;
+    background-image: url(../images/qiandao.png);
+    background-size: 0.65rem 0.65rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.4rem;
+}
+.itemMiddle{
+    display: inline-block;
+    position: absolute;
+    top: 0.3rem;
+}
+.itemRight{
+    float: right;
+    width: 0.78rem;
+    height: 0.4rem;
+    background: url(../images/anniu.png) no-repeat right;
+    background-size: 0.66rem 0.4rem;
+    margin-right: 0.24rem;
+    margin-top: 0.3rem;
+}
+/*conlist（列表）*/
+
+#tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -0.02rem 0.16rem rgba(184,184,184,0.75);
+}
+.tabList{
+    width: 80.26%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tabItem {
+    padding-top:0.1rem ;
+    width: 0.7rem;
+    height: 100%;
+    float: left;
+}
+.tabItem a{
+    font-size: 0.24rem;
+    display: block;
+    float: left;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.tabItem a:hover{
+    color: rgba(255,42,0,0.7);
+}
+.tabItem a i{
+    font-size: 0.5rem;
+}
+/*tab栏*/

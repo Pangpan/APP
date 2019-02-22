@@ -1,0 +1,247 @@
+#header{
+    width: 100%;
+    height: 1.28rem;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, rgb(98,99,101),rgb(7,9,6));
+}
+#status{
+    width: 100%;
+    height: 0.4rem;
+}
+#status img{
+    width:100% ;
+    height: 0.4rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+/*status（状态栏）*/
+#header .back{
+    width: 6.82rem;
+    height: 0.28rem;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+    position: relative;
+}
+#header .back a i{
+    position: absolute;
+    top: 0;
+    font-size: 0.30rem;
+    color: rgba(255,255,255,0.9);
+}
+.back span{
+    font-size:0.3rem ;
+    color: rgba(255,255,255,0.9);
+    position: absolute;
+    left: 0.38rem;
+    bottom: 0;
+}
+/*header（头部）*/
+
+#address{
+    width: 52.53%;
+    height: 1.23rem;
+    margin-left: 0.22rem;
+    margin-top: 0.21rem;
+}
+.first{
+    font-size:0.26rem ;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 0.05rem;
+}
+.location{
+    font-size: 0.34rem;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 0.05rem;
+}
+.name{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.7);
+}
+/*address（地址）*/
+
+#order{
+    width: 93.6%;
+    height: 4.70rem;
+    margin: 0 auto;
+    margin-top: 0.32rem;
+    box-shadow: 0 0.03rem 0.09rem rgba(193,193,193,0.75);
+    padding-top: 0.24rem;
+    padding-left: 0.24rem;
+}
+#order .store{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.8);
+}
+#order .store span{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.7);
+}
+.dishes{
+    width: 96.31%;
+    height: 3.20rem;
+}
+.dishes .line .first{
+    width: 100%;
+    height: 0.03rem;
+    background:rgba(0,0,0,0.05);
+    margin-top: 0.12rem;
+}
+.dishes .line .two{
+    width: 100%;
+    height: 0.03rem;
+    background:rgba(0,0,0,0.05);
+    margin-top: 0.02rem;
+}
+.dishes .food{
+    width: 100%;
+    height: 1.57rem;
+    margin-top: 0.21rem;
+}
+.dishes .food img{
+    width: 1.35rem;
+    height: 1.35rem;
+}
+.dishes .food .text{
+    display: inline-block;
+}
+.dishes .food .text .first{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 0.4rem;
+}
+.dishes .food .text .first span{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.8);
+}
+.dishes .food .text .second{
+    font-size: 0.30rem;
+    color: rgba(0,0,0,0.8);
+}
+.dishes .food .text .second img{
+    width: 0.32rem;
+    height: 0.32rem;
+}
+.dishes .food .price{
+    display: inline-block;
+    font-size: 0.28rem;
+    color: rgba(255,42,0,0.8);
+    margin-left: 1.1rem;
+}
+.dishes .line{
+    width: 6.53rem;
+    height: 0.03rem;
+    background: rgba(0,0,0,0.05);
+}
+.dishes .foodBox{
+    width: 100%;
+    height: 0.48rem;
+    margin-top: 0.2rem;
+}
+.dishes .foodBox .biao{
+    width: 0.51rem;
+    height: 0.32rem;
+    background: rgba(0,0,0,0.5);
+    font-size: 0.2rem;
+    color: rgba(255,255,255,0.8);
+}
+.dishes .foodBox .item{
+    width: 5rem;
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.8);
+    float: right;
+    margin-top: -0.3rem;
+}
+.dishes .foodBox .item span{
+    font-size: 0.28rem;
+    color: rgba(255,42,0,0.8);
+    float: right;
+}
+.kong{
+    margin-top: 0.2rem;
+}
+.dishes .cheap{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.5);
+    margin-top: 0.2rem;
+}
+.dishes .cheap span{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+    float: right;
+}
+.dishes .cheap span i{
+    font-size: 0.34rem;
+    color: rgba(255,42,0,0.8);
+}
+/*order（已点）*/
+
+#message{
+    width: 93.6%;
+    height: 4.00rem;
+    margin: 0 auto;
+    margin-top: 0.38rem;
+    box-shadow: 0 0.03rem 0.09rem rgba(193,193,193,0.75);
+    padding-top: 0.31rem;
+}
+.messageList{
+    width: 93.16%;
+    height: 0.48rem;
+    margin: 0 auto;
+    margin-bottom: 0.24rem;
+}
+.messageList .point{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background: rgb(0,252,255);
+}
+.messageList p{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.8);
+    margin-left: 0.4rem;
+    margin-top: -0.1rem;
+}
+.messageList span{
+    float: right;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+}
+.messageList .underline{
+    border-top: 0.03rem dashed rgba(0,0,0,0.05);
+    margin-top: 0.2rem;
+}
+/*message（信息）*/
+
+#tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -0.02rem 0.16rem rgba(184,184,184,0.75);
+}
+.tabLeft{
+    font-size: 0.34rem;
+    font-weight: bold;
+    color: rgba(255,42,0,0.7);
+    margin-left: 0.24rem;
+    float: left;
+    line-height: 0.98rem;
+}
+.tabLeft span{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    font-weight: normal;
+}
+.tabRight{
+    width: 20.4%;
+    height: 100%;
+    background: rgba(255,42,0,0.7);
+    float: right;
+    font-size: 0.3rem;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    line-height: 0.98rem;
+}
+/*tab栏*/

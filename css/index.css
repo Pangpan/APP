@@ -1,0 +1,304 @@
+
+#header{
+    width: 100%;
+    height: 1.28rem;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, rgb(98,99,101),rgb(7,9,6));
+}
+#status{
+    width: 100%;
+    height: 0.4rem;
+}
+#status img{
+    width:100% ;
+    height: 0.4rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+/*status（状态栏）*/
+.container{
+    width: 100%;
+    height: 0.88rem;
+    margin-top:0.17rem;
+    padding-left: 0.24rem;
+    display: inline-block;
+}
+.scanBox{
+    float: left;
+    width: 1.22rem;
+    height: 0.53rem;
+    font-size: 0.24rem;
+    line-height: 0.53rem;
+}
+.scanBox i{
+    font-size: 0.44rem;
+    color: rgba(255,255,255,0.5);
+    z-index: 1000;
+}
+.scanBox span{
+    float: right;
+    color: rgb(255,255,255);
+}
+input{
+    width: 4.30rem;
+    height: 0.45rem;
+    border: 0.02rem solid rgba(255,255,255,0.5);
+    border-radius: 0.4rem;
+    float: right;
+    margin-right: 0.24rem;
+    color: rgba(255,255,255,0.5);
+    font-size: 0.22rem;
+    background-image: linear-gradient(90deg, rgb(98,99,101),rgb(7,9,6));
+    position: relative;
+}
+.container section i{
+    display: inline-block;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.65rem;
+    color: rgba(255,255,255,0.5);
+}
+/*header（头部）*/
+
+#banner{
+    width: 100%;
+    height: 3.5rem;
+    position: relative;
+}
+.bannerItem{
+    width: 100%;
+    height: 3.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bannerItem img{
+    width: 100%;
+    height: 3.5rem;
+}
+/*.bannerItem .active{
+    z-index: 1;
+}*/
+.pagerBox{
+    width: 1.02rem;
+    height: 0.14rem;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0.25rem;
+    left: calc(50% - 0.51rem);
+}
+.pagerItem{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.white{
+    background: rgba(0,0,0,0.5);
+}
+/*banner（轮播图）*/
+
+#category{
+    width:87.33%;
+    height:3.68rem ;
+    margin: 0.24rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.categoryBox a{
+    float: left;
+}
+.categoryBox{
+    width: 1.4rem;
+    height: 1.77rem;
+    text-align: center;
+}
+.categoryBox img{
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.categoryBox p{
+    width: 1.4rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    line-height: 0.23rem;
+    margin-top: 0.12rem;
+    color: #000;
+}
+/*category（导航）*/
+
+#hot{
+    width: 93.6%;
+    height: 5.98rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0.12rem;
+}
+.recommend{
+    margin: 0 auto;
+    width: 1.86rem;
+    height: 0.5rem;
+    position: relative;
+    text-align: center;
+}
+.recommend img{
+    float: left;
+    width: 1.86rem;
+    height: 0.45rem;
+}
+.recommend p{
+    font-size: 0.34rem;
+    font-weight: 500;
+    color: rgb(25,26,24 );
+    position: absolute;
+    top: -0.12rem;
+    left: 0.24rem;
+}
+.pic img{
+    width: 93.6%;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    margin-top: 0.24rem;
+}
+.hotFont{
+    text-align: left;
+    position: relative;
+}
+.first{
+    font-size: 0.34rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    margin-bottom: 0.12rem;
+}
+.second{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 0.12rem;
+}
+.third{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.5);
+}
+.hotFont .look{
+    width: 1.53rem;
+    height: 0.45rem;
+    background-image: linear-gradient(90deg, rgb(97,98,100),rgb(15,17,13));
+    border-radius: 0.2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.45rem;
+}
+/*hot（热门推荐）*/
+
+#business{
+    width: 93.6%;
+    height: 7.08rem;
+    margin: 0.48rem auto 0;
+}
+.businessItem{
+    width: 89.46%;
+    height: 1.76rem;
+    margin: 0.12rem 0 0.48rem;
+}
+.businessItem img{
+    width: 33.33%;
+    height: 1.75rem;
+    border-radius:0.2rem ;
+    box-shadow: 0 0.13rem 0.18rem rgba(180,179,180,0.96);
+}
+.businessFont{
+    width: 53.73%;
+    float: right;
+    height: 1.75rem;
+}
+.firstBox{
+    margin-bottom: 0.1rem;
+}
+.secondBox{
+    margin-bottom: 0.1rem;
+}
+.thirdBox{
+    line-height: 0.4rem;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.1rem;
+}
+.businessFont .left{
+    float: left;
+}
+.businessFont .middle{
+    float: left;
+}
+.businessFont .right{
+    float: left;
+    font-size: 0.18rem;
+}
+.businessFont .cheapLeft{
+    width: 1.33rem;
+    height: 0.3rem;
+    border:1px solid rgb(95,96,96);
+    border-radius: 0.2rem;
+    font-size: 0.18rem;
+    color: rgb(25,26,24);
+    text-align: center;
+    line-height: 0.3rem;
+    float: left;
+}
+.businessFont .cheapRight{
+    margin-left: 0.3rem;
+}
+/*business（商家推荐）*/
+
+#under{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.7rem;
+}
+/*已经到底了*/
+#tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -0.02rem 0.16rem rgba(184,184,184,0.75);
+}
+.tabList{
+    width: 80.26%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tabItem {
+    padding-top:0.1rem ;
+    width: 0.7rem;
+    height: 100%;
+    float: left;
+}
+.tabItem a{
+    font-size: 0.24rem;
+    display: block;
+    float: left;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.tabItem a:hover{
+    color: rgba(255,42,0,0.7);
+}
+.tabItem a i{
+    font-size: 0.5rem;
+}
+/*tab栏*/
